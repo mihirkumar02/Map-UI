@@ -1,13 +1,113 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Baloo Chettan 2', cursive;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Main{
+  min-height: 100vh;
+}
+
+.blue-colour{
+  background-color: #118bee;
+}
+
+.lowerborder{
+  border-bottom: 1px solid #b1afaf;
+  padding-top: 10px;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #8d8787;
+}
+
+.text-grey{
+  text-align: center;
+  text-transform: uppercase;
+  color: #8d8787;
+}
+
+.active{
+  border-bottom: 2px solid #118bee;
+}
+
+.active.text-grey{
+  color: black;
+}
+
+.col-md-4{
+  padding: 0;
+}
+
+.row{
+  margin: 0;
+}
+
+.padded-row{
+  padding: 15px 0;
+}
+
+.imageholder{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.image{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.imagename{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn{
+  text-transform: uppercase;
+  border-radius: 0px;
+  width: 200px;
+}
+
+.btnshadow{
+  box-shadow: 0 0 20px -5px grey;
+}
+
+.lowerbordercard{
+  margin-bottom: 10px;
+  border-bottom: 1.5px solid #b1afaf;
+  cursor: pointer;
+}
+
+.btn-danger{
+  background-color: #f5caca;
+  color: #ec2626;
+  font-weight: bold;
+  border: none;
+}
+
+.uppermargin{
+  margin-top: 50px;
+}
+
+.Flow{
+  overflow-y: scroll;
+}
+
+.fa-comment-dots{
+  color: #118bee;
+  font-size: 30px;
+}
+
+.taskcount{
+  border: 1px solid grey;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px; 
+  text-align: center;
 }
